@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right|center"
+    android:visibility="visible"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="HỆ THỐNG CẢNH BÁO VI PHẠM GIAO THÔNG"
+    android:textColor="#2E9AFE"
+    android:textSize="16dp"
+    android:textStyle="bold"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center_horizontal"
+    android:layout_marginTop="30dp"
+    android:text="ĐĂNG NHẬP"
+    android:textColor="#39996C"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    />
+<EditText
+    android:id="@+id/tb_user_name"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center_horizontal"
+    android:layout_marginTop="30dp"
+    android:ems="10"
+    android:hint="Tên đăng nhập"
+    android:textColorHint="#39996C"
+    android:drawablePadding="10dp"
+    app:hintEnabled="true"
+    android:drawableLeft="@drawable/name"
+    android:inputType="textPersonName" />
+
+<EditText
+    android:id="@+id/tb_passwd"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:layout_marginTop="20dp"
+    android:ems="10"
+    android:hint="Mật khẩu"
+    android:drawableLeft="@drawable/key"
+    android:drawablePadding="10dp"
+    android:textColorHint="#39996C"
+    android:inputType="textPassword" />
+
+<Button
+    android:id="@+id/bt_login"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:layout_marginTop="20dp"
+    android:drawableLeft="@drawable/enter"
+    android:textSize="18dp"
+    android:ems="10"
+    android:text="Đăng nhập" />
+</LinearLayout>

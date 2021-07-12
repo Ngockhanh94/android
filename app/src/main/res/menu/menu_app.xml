@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="TÌM KIẾM"
+        android:id="@+id/menu_search"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/search_user"
+                android:title="Cá nhân" />
+            <item
+                android:id="@+id/search_phuongtien"
+                android:title="Phương Tiện" />
+        </menu>
+    </item>
+    <item android:title="BÁO CÁO"
+        android:id="@+id/report"/>
+    <item android:title="USER"
+        android:id="@+id/user"/>
+</menu>
